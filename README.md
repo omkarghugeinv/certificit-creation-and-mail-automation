@@ -26,6 +26,7 @@ If you have Python installed and want to run it from the source code:
 
 1. Double click the `run_gui.bat` file, or run the following command in your terminal:
    ```bash
+   cd gui
    python gui_app.py
    ```
 2. Select your base PDF template.
@@ -37,10 +38,11 @@ If you have Python installed and want to run it from the source code:
 ## How to Use the CLI
 If you prefer the command line:
 
-1. Add your student data to `students.csv`.
-2. Make sure you have your template ready (e.g., `template.png`).
+1. Add your student data to `cli/students.csv`.
+2. Make sure you have your template ready (e.g., `cli/template.png`).
 3. Run the following command:
    ```bash
+   cd cli
    python main.py
    ```
 4. Follow the on-screen prompts to configure email settings and send the certificates.
