@@ -1,3 +1,6 @@
+import deps_check
+deps_check.ensure_dependencies()
+
 import tkinter as tk
 from tkinter import filedialog, messagebox, scrolledtext
 import threading

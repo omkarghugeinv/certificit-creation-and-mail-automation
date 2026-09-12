@@ -1,3 +1,6 @@
+import deps_check
+deps_check.ensure_dependencies()
+
 import os
 import getpass
 from generate_certificates import generate_certificates
